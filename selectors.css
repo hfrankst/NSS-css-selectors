@@ -1,0 +1,41 @@
+header {
+	border: 1px solid green;
+}
+
+div.month-list ul {
+	list-style-type: none;
+}
+
+div.month-list ul li {
+	display: inline;
+	float: left;
+	margin-right: .5em;
+}
+
+div#color1 {
+	color: red;
+}
+
+div#color2 {
+	color: blue;
+}
+
+h4#red1 {
+	background-color: red;
+}
+
+h4#blue1 {
+	background-color: blue;
+}
+
+.disabled {
+	color: grey;
+}
+
+a.disabled {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
