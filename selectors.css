@@ -1,6 +1,15 @@
+/*******HEADER******/
+
 header {
 	border: 1px solid green;
 }
+
+header ul li {
+	display: inline-block;
+	margin-right: 2em;
+}
+
+/*****DIV'S******/
 
 div.month-list ul {
 	list-style-type: none;
@@ -20,6 +29,13 @@ div#color2 {
 	color: blue;
 }
 
+div.promo {
+	font-weight: 800;
+	color: gold;
+}
+
+/**Headings****/
+
 h4#red1 {
 	background-color: red;
 }
@@ -27,6 +43,12 @@ h4#red1 {
 h4#blue1 {
 	background-color: blue;
 }
+
+h4#grand {
+	border: 1px solid black;
+	border-radius: 15%;
+}
+/***Classes***/
 
 .disabled {
 	color: grey;
@@ -38,4 +60,10 @@ a.disabled {
 
 .active {
 	color: yellow;
+}
+
+/***Elements***/
+
+footer span input {
+	height: 25px;
 }
